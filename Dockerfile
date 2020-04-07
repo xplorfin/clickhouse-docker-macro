@@ -7,5 +7,6 @@ RUN chmod +x /run.sh
 
 RUN chown -R clickhouse:clickhouse /etc/clickhouse-server/config.d/
 RUN chown clickhouse:clickhouse /run.sh
+RUN chmod -R 777 /run.sh
 
 CMD [ "/run.sh" ]
