@@ -1,6 +1,5 @@
 FROM ubuntu:18.04
 
-COPY config.xml /local.xml
 COPY macros.xml /macros.xml
 COPY run.sh /run.sh
 RUN chmod +x /run.sh
