@@ -1,4 +1,4 @@
-FROM yandex/clickhouse-server:19.17
+FROM ubuntu:18.04
 
 COPY config.xml /local.xml
 COPY macros.xml /macros.xml
