@@ -1,4 +1,4 @@
-1#!/bin/bash
+#!/bin/bash
 
 NODE_ID=$(echo $(hostname) | awk '{print substr($0,length,1)}')
 echo "NODE_ID is $NODE_ID"
