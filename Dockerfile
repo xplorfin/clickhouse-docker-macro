@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:18.10
 
 COPY macros.xml /macros.xml
 COPY run.sh /run.sh
